@@ -54,10 +54,24 @@ body{
     color: #B0C926;
 }
 
-.pale-grey{
-    color: #F6F8F9;
+.pale-grey-bg{
+    background-color: #F6F8F9;
 }
 
-.white{
-    color: #FFFFFF;
+.white-bg{
+    background-color: #FFFFFF;
+}
+
+.black{
+    color: black;
+}
+
+
+#header-container{
+    background-color: #ffffff;
+    height: 100px;
+}
+
+#header-container span{
+    display: inline-block;
 }
