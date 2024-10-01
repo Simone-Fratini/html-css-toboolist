@@ -69,9 +69,57 @@ body{
 
 #header-container{
     background-color: #ffffff;
-    height: 100px;
+    height: 80px;
 }
 
 #header-container span{
-    display: inline-block;
+    font-size: 2em;
+}
+
+/* main */ 
+
+#main-first-container{
+    width: 800px;
+    height: 60px;
+    margin: 50px auto 2px auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 8px 8px 0 0 ;
+    background-color: white;
+}
+
+#main-second-container{
+    width: 800px;
+    padding: 20px 40px;
+    background-color: white;
+    margin: 2px auto;
+}
+
+
+#tasks div button{
+    width: 90px;
+    height: 25px;
+}
+
+#tasks div{
+    /*bottons  with same padding on top and bottom without flexbox*/
+    padding-top: 20px;  
+}
+
+#add-task{
+    background-color: #47ADF1;
+    border-radius: 4px;
+    border-color: #47ADF1;
+    border-width: 2px;
+    color: white;
+}
+
+#add-section{
+    background-color: white;
+    border-color: grey;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    color: grey;
+    
 }
