@@ -121,5 +121,22 @@ body{
     border-width: 1px;
     border-style: solid;
     color: grey;
-    
+}
+
+.new-task{
+    color: #444851;
+}  
+
+.new-task span span{
+    width: 15px;
+    height: 15px;
+    padding-bottom: 5px;
+    display: inline-block;
+    color: #B0C926;
+    border: 1px solid #B0C926;
+    border-radius: 50%;
+}
+
+.badge{
+    display: inline-block;
 }
