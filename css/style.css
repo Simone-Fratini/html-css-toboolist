@@ -1,4 +1,19 @@
+/*
+Color pallette:
+#47ADF1 waterblue
+#64C0A9 Seafoam green
+#9C72E4 Liliac
+#F29E33 Orange
+#D963A1 Pink
+#B0C926 Green
+#F6F8F9 Pale Grey
+#FFFFFF White
+*/
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
     font-family: "Poppins", sans-serif;
@@ -18,3 +33,31 @@ body{
     font-weight: 300;
     font-style: normal;
   }
+
+.waterblue{
+    color: #47ADF1;
+}
+
+.liliac{
+    color: #9C72E4;
+}
+
+.orange{
+    color: #F29E33;
+}
+
+.pink{
+    color: #D963A1;
+}
+
+.green{
+    color: #B0C926;
+}
+
+.pale-grey{
+    color: #F6F8F9;
+}
+
+.white{
+    color: #FFFFFF;
+}
